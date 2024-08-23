@@ -10,47 +10,26 @@ import SamsungImage from '../public/images/brands/samsung_gray.png';
 import CanonImage from '../public/images/brands/canon_gray.png';
 import PumaImage from '../public/images/brands/puma_gray.png';
 
-export const clientsHeading = 'Some of the brands I worked with';
+export const clientsHeading = 'Some of the companies I have worked with';
 
 export const clientsData = [
 	{
 		id: uuidv4(),
-		title: 'Amazon',
+		title: 'Zelpmoc',
 		img: AmazonImage,
+		link:'https://www.xelpmoc.in/'
 	},
 	{
 		id: uuidv4(),
-		title: 'Sony',
-		img: SonyImage,
+		title: 'Janaspandana',
+		img: AmazonImage,
+		link:'https://janaspandana.in/'
 	},
 	{
 		id: uuidv4(),
-		title: 'Adidas',
-		img: AdidasImage,
-	},
-	{
-		id: uuidv4(),
-		title: 'FILA',
-		img: FilaImage,
-	},
-	{
-		id: uuidv4(),
-		title: 'NB',
-		img: NBImage,
-	},
-	{
-		id: uuidv4(),
-		title: 'SAMSUNG',
-		img: SamsungImage,
-	},
-	{
-		id: uuidv4(),
-		title: 'CANON',
-		img: CanonImage,
-	},
-	{
-		id: uuidv4(),
-		title: 'PUMA',
-		img: PumaImage,
-	},
+		title: 'DREAM Venture Labs',
+		img: AmazonImage,
+		link:'https://www.dreamventurelabs.org/'
+
+	}
 ];

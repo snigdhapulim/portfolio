@@ -2,8 +2,7 @@ import { useCountUp } from 'react-countup';
 import CounterItem from './CounterItem';
 
 function AboutCounter() {
-	useCountUp({ ref: 'experienceCounter', end: 12, duration: 2 });
-	useCountUp({ ref: 'githubStarsCounter', end: 20, duration: 2 });
+	useCountUp({ ref: 'experienceCounter', end: 4, duration: 2 });
 	useCountUp({ ref: 'feedbackCounter', end: 92, duration: 2 });
 	useCountUp({ ref: 'projectsCounter', end: 77, duration: 2 });
 
@@ -14,12 +13,6 @@ function AboutCounter() {
 					title="Years of experience"
 					counter={<span id="experienceCounter" />}
 					measurement=""
-				/>
-
-				<CounterItem
-					title="Stars on GitHub"
-					counter={<span id="githubStarsCounter" />}
-					measurement="k+"
 				/>
 
 				<CounterItem
