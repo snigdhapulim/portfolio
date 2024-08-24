@@ -18,7 +18,7 @@ function about() {
 				<AboutMeBio />
 			</motion.div>
 
-			{/** Counter without paddings */}
+			{/** Counter without paddings 
 			<motion.div
 				initial={{ opacity: 0 }}
 				animate={{ opacity: 1, delay: 1 }}
@@ -26,7 +26,7 @@ function about() {
 			>
 				<AboutCounter />
 			</motion.div>
-
+			*/}
 			<motion.div
 				initial={{ opacity: 0 }}
 				animate={{ opacity: 1, delay: 1 }}
