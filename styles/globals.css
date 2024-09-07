@@ -245,3 +245,22 @@ a {
 		opacity: 0.5;
 	}
 }
+
+
+/* Scrollbar Styling */
+::-webkit-scrollbar {
+	width: 10px;
+  }
+  
+  ::-webkit-scrollbar-track {
+	-webkit-border-radius: 10px;
+	border-radius: 10px;
+	@apply dark:bg-primary-dark bg-transparent rounded-none;
+  }
+  
+  ::-webkit-scrollbar-thumb {
+	-webkit-border-radius: 10px;
+	border-radius: 10px;
+	background: #6F717D40; 
+	@apply dark:bg-gray-400;
+  }
