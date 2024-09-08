@@ -10,31 +10,21 @@ import {
 export const projectsData = [
 	{
 		id: 1,
-		title: 'Google Health Platform',
-		url: 'google-health-platform',
+		title: 'Right Primary Care',
+		url: 'https://github.com/notgitika/team-katara',
 		category: 'Web Application',
-		img: '/images/web-project-2.jpg',
+		img: '/images/web-project-1.png',
 		ProjectHeader: {
-			title: 'Google Health Platform',
-			publishDate: 'Jul 26, 2021',
-			tags: 'UI / Frontend',
+			title: 'Finding the Right Primary Care Physician',
+			publishDate: 'Feb, 2024',
+			tags: 'Web Application',
 		},
 		ProjectImages: [
 			{
 				id: uuidv4(),
-				title: 'Google Health Platform',
-				img: '/images/ui-project-1.jpg',
-			},
-			{
-				id: uuidv4(),
-				title: 'Google Health Platform',
-				img: '/images/web-project-2.jpg',
-			},
-			{
-				id: uuidv4(),
-				title: 'Google Health Platform',
-				img: '/images/mobile-project-2.jpg',
-			},
+				title: 'Primary Doctor Recommendation System Video',
+				img: 'https://player.vimeo.com/video/914164439',
+			}
 		],
 		ProjectInfo: {
 			ClientHeading: 'About Client',
@@ -62,41 +52,49 @@ export const projectsData = [
 			],
 			ObjectivesHeading: 'Objective',
 			ObjectivesDetails:
-				'Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio, natus! Quibusdam enim quod in esse, mollitia molestias incidunt quas ipsa accusamus veniam.',
+				'Develop a backend solution for the <a href="https://github.com/notgitika/team-katara" target="_blank" style="color: blue;">"Primary Doctor Recommendation System,"</a> designed to intelligently match patients with primary care physicians based on various criteria such as patient preferences, doctor specialties, and collaborative filtering algorithms. This system aims to enhance the patient experience by providing personalized doctor recommendations, taking into account both user profiles and historical match data.',
 			Technologies: [
 				{
 					title: 'Tools & Technologies',
 					techs: [
-						'HTML',
-						'CSS',
-						'JavaScript',
-						'Vue.js',
-						'TailwindCSS',
-						'AdobeXD',
+						'Flask (Python)',
+						'MySQL (Hosted on Google Cloud SQL)',
+						'ReactJS', 
+						'Node.js', 
+						'FastAPI', 
+						'TensorFlow',
+						'Custom models for recommendations (Item-based collaborative filtering)',
 					],
 				},
 			],
-			ProjectDetailsHeading: 'Challenge',
+			ProjectDetailsHeading: 'About the Model',
 			ProjectDetails: [
 				{
 					id: uuidv4(),
 					details:
-						'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nihil vel illum asperiores dignissimos cumque quibusdam et fugiat voluptatem nobis suscipit explicabo, eaque consequatur nesciunt, fugit eligendi corporis laudantium adipisci soluta? Lorem ipsum, dolor sit amet consectetur adipisicing elit. Incidunt totam dolorum, ducimus obcaecati, voluptas facilis molestias nobis ut quam natus similique inventore excepturi optio ipsa deleniti fugit illo. Unde, amet! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsum illo necessitatibus perspiciatis! Aperiam perferendis labore temporibus, eos culpa corporis recusandae quas, fuga voluptatibus nesciunt odit libero tenetur neque consequatur ea.',
+						'The recommendation model in this system is built on an item-based collaborative filtering algorithm, designed to analyze patterns in patient preferences and past interactions to suggest the most suitable primary care physicians. The model takes into account various factors such as:',
+				},
+				{
+					id: uuidv4(),
+					details:`
+					- Patient Preferences: Age, gender, preferred communication style, and medical history.<br/>
+					- Doctor Specialties: Specific areas of expertise, patient reviews, and availability.<br/>
+					- Collaborative Filtering: Leveraging past user data to identify patterns and similarities among patients for personalized doctor recommendations.`,
 				},
 				{
 					id: uuidv4(),
 					details:
-						'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nihil vel illum asperiores dignissimos cumque quibusdam et fugiat voluptatem nobis suscipit explicabo, eaque consequatur nesciunt, fugit eligendi corporis laudantium adipisci soluta?',
+						'Currently, as real-world data is not readily available, we propose collecting this data through surveys targeting patients, doctors, and healthcare providers. We also aim to consider health insurance information to enhance the matching criteria and provide even more tailored recommendations.',
 				},
 				{
 					id: uuidv4(),
 					details:
-						'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nihil vel illum asperiores dignissimos cumque quibusdam et fugiat voluptatem nobis suscipit explicabo, eaque consequatur nesciunt, fugit eligendi corporis laudantium adipisci soluta?',
+						"For the prototype, we have utilized dummy data to test and validate our model's initial functionality and effectiveness.",
 				},
 				{
 					id: uuidv4(),
 					details:
-						'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nihil vel illum asperiores dignissimos cumque quibusdam et fugiat voluptatem nobis suscipit explicabo, eaque consequatur nesciunt, fugit eligendi corporis laudantium adipisci soluta? Lorem ipsum, dolor sit amet consectetur adipisicing elit. Incidunt totam dolorum, ducimus obcaecati, voluptas facilis molestias nobis ut quam natus similique inventore excepturi optio ipsa deleniti fugit illo. Unde, amet! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsum illo necessitatibus perspiciatis! Aperiam perferendis labore temporibus, eos culpa corporis recusandae quas, fuga voluptatibus nesciunt odit libero tenetur neque consequatur ea.',
+						'This project was developed during the <a href="https://tfc-civic-tech-hackathon-2024.devpost.com/" target="_blank" style="color: blue;">TFC Civic Tech Hackathon 2024</a>, an event focused on building innovative solutions to improve civic engagement and public services. The hackathon gathered developers, designers, and innovators to create impactful projects addressing real-world challenges in our communities.',
 				},
 			],
 			SocialSharingHeading: 'Share This',
